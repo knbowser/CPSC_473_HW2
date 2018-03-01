@@ -47,10 +47,4 @@ function initializeEvents() {
   thumbnails.forEach(addThumbClickHandler);
 }
 
-function initializeEvents() {
-  'use strict';
-  var thumbnails = getThumbnailsArray();
-  thumbnails.forEach(addThumbClickHandler);
-}
-
 initializeEvents();
